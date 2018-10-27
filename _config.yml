@@ -2,11 +2,11 @@
 title: AnnetteWadeJosh Webstore
 timezone: UTC
 collections:
-  items-for-sale:
-    title: Items For Sale
-    output: true
   posts:
     title: Posts
+    output: true
+  items-for-sale:
+    title: Products
     output: true
   uploads:
     title: Uploads
