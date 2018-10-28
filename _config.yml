@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: AnnetteWadeJosh Webstore
+url: "https://annettewadejosh.siteleaf.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -12,18 +12,18 @@ disqus_shortname:
 logo: /siteicon.png
 description: App marketing template for Jekyll.
 author:
-  name:
+  name: Josh Hampton
   email:
   twitter: # twitter username without the @ symbol
 social:
   name: Frisco Template
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://github.com/annettewadejosh/Webstore
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: UTC
 
 permalink: pretty
 
@@ -41,8 +41,16 @@ exclude:
   - LICENCE
 
 collections:
-  staff_members:
-    _hide_content: true
+  collections:
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
@@ -104,5 +112,5 @@ social_icons:
   - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: AnnetteWadeJosh Webstore
+  blurb: Check me out on eBay!
