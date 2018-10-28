@@ -1,6 +1,6 @@
 ---
-title: Frisco Template
-timezone: Etc/UTC
+title: AnnetteWadeJosh Webstore
+timezone: UTC
 collections:
   posts:
     title: Posts
@@ -46,21 +46,21 @@ defaults:
       width: 2000
       height: 1322
       resize_style: cover
-url: https://brave-submarine.cloudvent.net
+url: https://AnnetteWadeJosh.siteleaf.net
 baseurl: 
 google_analytics_key: 
 google_maps_javascript_api_key: 
 disqus_shortname: 
 logo: "/siteicon.png"
-description: App marketing template for Jekyll.
+description: AnnetteWadeJosh the eBay Seller now has a Website.
 author:
-  name: 
+  name: Josh Hampton
   email: 
   twitter: 
 social:
-  name: Frisco Template
+  name: AnnetteWadeJosh
   links:
-  - https://github.com/CloudCannon/frisco-jekyll-template
+  - https://github.com/AnnetteWadeJosh/Webstore
 permalink: pretty
 plugins:
 - jekyll-sitemap
@@ -90,5 +90,5 @@ social_icons:
 - Email
 - RSS
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: AnnetteWadeJosh now has a Website
+  blurb: AnnetteWadeJosh is on eBay, but did you know AnnetteWadeJosh has a website.
