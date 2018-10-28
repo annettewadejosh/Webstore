@@ -1,10 +1,10 @@
 ---
 title: Psychology of friendship
-date: 2016-07-28 00:00:00 Z
-categories:
-- friendship
-- science
+date: 2016-07-28
 description: How are our brains wired for friendship?
+categories:
+  - friendship
+  - science
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
 author_staff_member: betty
 ---

@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # ----
 # Site
 
-title: AnnetteWadeJosh Webstore
-url: "https://annettewadejosh.siteleaf.com"
+title: Frisco Template
+url: "https://brave-submarine.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -13,132 +12,97 @@ disqus_shortname:
 logo: /siteicon.png
 description: App marketing template for Jekyll.
 author:
-  name: Josh Hampton
+  name:
   email:
   twitter: # twitter username without the @ symbol
 social:
   name: Frisco Template
   links:
-    - https://github.com/annettewadejosh/Webstore
+    - https://github.com/CloudCannon/frisco-jekyll-template
 
 # -----
 # Build
 
-timezone: UTC
+timezone: Etc/UTC
 
-=======
----
-title: Frisco Template
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  staff_members:
-    title: Staff Members
-    output: false
-    _hide_content: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    _options:
-      image:
-        width: 2000
-        height: 1322
-        resize_style: cover
-      content:
-        width: 1500
-        height: 2000
-- scope:
-    path: contact-success.html
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: pages
-  values:
-    image:
-      width: 2000
-      height: 1322
-      resize_style: cover
-    bottom_image:
-      width: 2000
-      height: 1322
-      resize_style: cover
-url: https://brave-submarine.cloudvent.net
-baseurl: 
-google_analytics_key: 
-google_maps_javascript_api_key: 
-disqus_shortname: 
-logo: "/siteicon.png"
-description: App marketing template for Jekyll.
-author:
-  name: 
-  email: 
-  twitter: 
-social:
-  name: Frisco Template
-  links:
-  - https://github.com/CloudCannon/frisco-jekyll-template
->>>>>>> faae3a74973b3ffdf312c8a80d84e984e7f5547d
 permalink: pretty
+
 plugins:
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-feed
-- jekyll-paginate
-- jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+
 exclude:
-<<<<<<< HEAD
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENCE
 
 collections:
-  collections:
-  posts:
-    title: Posts
-    output: true
-  products:
-    title: Products
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+  staff_members:
+    _hide_content: true
 
-=======
-- Gemfile
-- Gemfile.lock
-- README.md
-- LICENCE
->>>>>>> faae3a74973b3ffdf312c8a80d84e984e7f5547d
 paginate: 10
 paginate_path: "/blog/:num/"
+
 jekyll-archives:
-  enabled:
-  - categories
+  enabled: ['categories']
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        image:
+          width: 2000
+          height: 1322
+          resize_style: cover
+        content:
+          width: 1500
+          height: 2000
+  -
+    scope:
+      path: "contact-success.html"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+      bottom_image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+
+# -----------
+# CloudCannon
+
 social_icons:
-- Facebook
-- Google Plus
-- Instagram
-- LinkedIn
-- Pinterest
-- Tumblr
-- Twitter
-- YouTube
-- Email
-- RSS
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - Email
+  - RSS
+
 _comments:
-  description: AnnetteWadeJosh Webstore
-  blurb: Check me out on eBay!
+  description: Text shown when sharing on social media
+  blurb: Short bio or description of this person

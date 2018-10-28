@@ -1,13 +1,12 @@
 ---
 title: Life cycle of friendships
-date: 2016-08-02 00:00:00 Z
-categories:
-- friendship
+date: 2016-08-02
 description: How do friendships develop?
+categories:
+  - friendship
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
 author_staff_member: anna
 ---
-
 Three significant factors make the formation of a friendship possible:
 
 * Proximity – nearness or having a place or places to interact
