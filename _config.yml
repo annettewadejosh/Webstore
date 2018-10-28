@@ -48,7 +48,7 @@ defaults:
       resize_style: cover
 url: https://AnnetteWadeJosh.siteleaf.net
 baseurl: 
-google_analytics_key: 
+google_analytics_key: UA-128202950-1
 google_maps_javascript_api_key: 
 disqus_shortname: 
 logo: "/siteicon.png"
