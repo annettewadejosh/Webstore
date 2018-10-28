@@ -1,6 +1,6 @@
 ---
 title: Anna
-position: 0
+position: 2
 name: Anna Thompson
 image_path: https://source.unsplash.com/collection/139386/600x600?a=.png
 twitter_username: CloudCannonApp
