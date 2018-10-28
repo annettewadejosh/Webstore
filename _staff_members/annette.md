@@ -1,7 +1,7 @@
 ---
 title: Annette
 position: 0
-name: Annette Hampton
+name: Annette
 image_path: https://source.unsplash.com/collection/139386/604x604?a=.png
 twitter_username: 
 blurb: Annette is the one who is really doing most of the work here.
