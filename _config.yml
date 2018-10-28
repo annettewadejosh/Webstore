@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ----
 # Site
 
@@ -106,3 +107,15 @@ social_icons:
 _comments:
   description: Text shown when sharing on social media
   blurb: Short bio or description of this person
+=======
+---
+title: Frisco Template
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+>>>>>>> a4377ee5ee62f6574794b33efb0096991873ea3b
