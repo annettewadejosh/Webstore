@@ -1,7 +1,7 @@
 ---
 title: Erica
 position: 3
-name: Erica Kikuchi-Hampton
+name: Erica
 image_path: https://source.unsplash.com/collection/139386/602x602?a=.png
 twitter_username: 
 blurb: Erica helps with the website.
